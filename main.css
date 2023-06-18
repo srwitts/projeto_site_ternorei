@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2,
+section h3
+form button {
+    font-family: 'Playfair', serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.container, .datas {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .datas {
+    display: flex;
+    align-items: center;
+}
+
+.albuns li {
+    display:inline;
+    margin-right: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    padding: 16px;
+}
+
+section .datas2 {
+    color: #fff;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.banda-front {
+    float: left;
+    margin-right: 32px;
+}
+
+header .container {
+    border-bottom: 5px solid rgb(131, 96, 165);
+}
+
+#agenda .datas {
+    background-color: rgb(131, 96, 165);
+}
+
+#discografia .container h2,
+#contact .container h2 {
+    background-color: rgb(131, 96, 165);
+    color: #fff;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+form button {
+    background-color: rgb(131, 96, 165);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(104, 76, 136);
+}
+
+input:focus, textarea:focus {
+    outline-color:  rgb(131, 96, 165);
+}
+
+footer {
+    background-color:  rgb(131, 96, 165);
+    color: #ecf0fe;
+    padding: 16px 0;
+}
